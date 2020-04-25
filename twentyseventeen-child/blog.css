@@ -1,0 +1,220 @@
+.box-pagebanner .vc_column-inner {
+    padding: 0 !important;
+}
+.box-pagebanner .vc_btn3-container.vc_btn3-inline {
+    z-index: 2;
+}
+.box-pagebanner .vc_btn3-container.vc_btn3-inline {
+    position: absolute;
+    left: 5%;
+    bottom: 0px;
+}
+
+.box-pagebanner .wpb_single_image {
+    margin: 0;
+}
+
+.box-pagebanner {
+    margin-bottom: 40px;
+}
+.box-pagebanner a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-modern.vc_btn3-color-grey {
+    border: 0;
+    background: #af3043;
+    border-radius: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.box-pagebanner a.vc_general.vc_btn3.vc_btn3-size-md.vc_btn3-shape-rounded.vc_btn3-style-modern.vc_btn3-color-grey:hover {
+    border: 0;
+    background: #922737;
+    color: #fff;
+}
+
+div.bannerImage img {
+    height: 300px;
+    object-fit: cover;
+    max-height: 50vw;
+}
+.bannerImage * {
+    width: 100%;
+}
+
+
+body.blog header.page-header {
+    display: none;
+}
+body.blog main#main {
+    max-width: 1200px;
+    margin: auto;
+}
+main#main:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body.blog main#main {
+}
+body.blog #primary article.post {
+    width: 47%;
+    float: left;
+    margin: 0 1.5% 3%;
+    padding: 0 0 60px;
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.post-thumbnail {
+    margin-bottom: 0;
+}
+.post-thumbnail a {
+    display: block;
+    padding: 0 0 60%;
+    position: relative;
+    overflow: hidden;
+}
+.post-thumbnail a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 2s;
+}
+
+p:last-child {
+    margin: 0;
+}
+body.blog #primary article.post:hover .post-thumbnail a img {
+	transform: scale(1.1);
+}
+
+
+
+
+body.blog #primary article.post header.entry-header {
+    order: 2;
+    width: 100%;
+    padding: 20px 30px 10px;
+}
+
+body.blog #primary article.post .post-thumbnail {
+    order: 1;
+}
+
+body.blog #primary article.post .entry-content {
+    order: 3;
+    padding: 0 30px;
+    font-size: 0.9em;
+    /* display: none; */
+    font-size: 13px;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 0 30px;
+}
+body.blog #primary article.post .entry-content p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+}
+body.blog #primary article.post .entry-content img {
+	display: none;
+}
+
+body.blog #primary article.post header.entry-header span.edit-link {
+    display: none;
+}
+
+body.blog #primary article.post header.entry-header h2.entry-title a {
+    display: block;
+    color: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+body.blog #primary article.post header.entry-header h2.entry-title {
+    color: #f49a20;
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: 600;
+}
+
+p:last-child {
+    margin: 0;
+}
+
+body.blog #primary article.post header.entry-header h2.entry-title a:before {content: "en savoir plus";position: absolute;bottom: 30px;left: 30px;background: #f39a1f;color: #252f3a;text-transform: uppercase;font-size: 14px;height: 40px;line-height: 40px;padding: 0 40px;}
+
+body.blog #primary article.post .entry-meta > a {
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    font-weight: 600;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #252f3a;
+}
+
+body.blog #primary article.post:nth-child(2n + 1) {
+    clear: both;
+}
+.navigation.pagination { 
+    width: 97%;
+    margin: auto;
+    float: none;
+}
+@media (max-width: 1800px){
+body.blog #primary article.post header.entry-header h2.entry-title a:before {
+    font-size: 12px;
+    padding: 0 15px;
+}
+}
+@media (max-width: 1200px){
+body.blog #primary article.post header.entry-header h2.entry-title a:before {
+	display: none;
+}
+.d-detail table { 
+    font-size: 14px;
+}
+}
+
+@media (max-width: 991px){
+body.blog #primary article.post header.entry-header h2.entry-title a:before {
+    font-size: 12px;
+    padding: 0 20px;
+}
+.d-detail table { 
+    font-size: 12px;
+}
+
+
+
+}
+@media (max-width: 767px){
+body.blog #primary article.post {
+    width: 100%;
+    margin: 0 0 30px;
+}
+body.blog #primary article.post .entry-meta > a {
+    letter-spacing: 0;
+}
+body.blog #primary article.post header.entry-header h2.entry-title a:before {
+    font-size: 11px;
+    padding: 0 10px;
+}
+
+}
+
+.site-content-contain > p {
+    margin: 0;
+}
+.single-featured-image-header {
+    display: none;
+}
+.site-content-contain {
+    overflow: hidden;
+}
